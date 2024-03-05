@@ -8,6 +8,14 @@
     background-color: hsl(0, 0%, 29%);
 }
 
+.navbar2{
+    height: 40px;
+}
+
+.barra{
+    background-color: hsl(0, 0%, 87%);
+}
+
 .navbar-brand{
     color: orange;
     font-family: "Madimi One", sans-serif;
@@ -20,6 +28,10 @@
 main{
     height: auto;
     background-color: hsl(0, 0%, 87%);
+}
+
+.mainM{
+    height: calc(100vh - 80px);
 }
 
 h1{
@@ -40,8 +52,14 @@ footer{
     background-color: hsl(0, 0%, 29%);
     color: #fff;
     padding: 10px;
-    height: auto;
+    height: 40px;
 }
+
+.piePaginas{
+    background-color: hsl(0, 0%, 87%);
+
+}
+
 footer p{
     margin-bottom: 2px;
     float: right;
@@ -56,3 +74,4 @@ footer .redes i{
     font-size: 20px;
     letter-spacing: 20px;
 }
+
