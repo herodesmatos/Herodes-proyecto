@@ -8,10 +8,6 @@
     background-color: hsl(0, 0%, 29%);
 }
 
-.navbar2{
-    height: 40px;
-}
-
 .barra{
     background-color: hsl(0, 0%, 87%);
 }
@@ -26,12 +22,8 @@
 }
 
 main{
-    height: auto;
+    min-height: 90vh;
     background-color: hsl(0, 0%, 87%);
-}
-
-.mainM{
-    height: calc(100vh - 80px);
 }
 
 h1{
@@ -57,6 +49,7 @@ footer{
 
 .piePaginas{
     background-color: hsl(0, 0%, 87%);
+    height: auto;
 
 }
 
