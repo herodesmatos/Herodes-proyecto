@@ -46,13 +46,46 @@
     <!-- Contenido inicia-->
     <div class="container-fluid">
         <div class="row">
-            <main class="col-12"><br>
-                <h2>¿Quién es MIBY?</h2>
+            <main><br>
+                <h2>Formulario</h2>
                 <div class="container-sm">
-                    <div class="row">
-                        <div class="p-3 my-5 uno">
-                            <h4>Nuestra apreciada mascota se llama MIBY</h4><br>
-                            <form action="enviar.php" method="post" enctype="text/plain"></form>
+                    <div class="p-3 my-5 uno">
+                        <div class="row">
+                            <h4>Completa los campos</h4>
+                            <div class="form-floating col-md-6 mb-3 mt-4">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Persona, empresa">
+                                <label for="floatingInput">Nombre</label>
+                            </div>
+                            <div class="form-floating col-md-6 mb-3 mt-md-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+                                <label for="floatingInput">Correo Electrónico</label>
+                            </div>
+                            <div class="form-floating col-md-6 mb-3">   
+                                <input type="number" class="form-control" id="floatingInput" placeholder="Opcional">
+                                <label for="floatingInput">Teléfono</label>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text">Título</span>
+                                    <div class="form-floating col-md-6">
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        id="floatingInputGroup1"
+                                        placeholder="Nombre de la publicación"/>
+                                      <label for="floatingInputGroup1">Nombre de la publicación</label>
+                                    </div>  
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                                <label for="floatingTextarea2">Descripción</label>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </div>
+                            
+                            <!-- <form action="enviar.php" method="post" enctype="text/plain"></form>
                                 <label for="">Nombre</label>
                                 <input type="text" required placeholder="Persona, empresa"><br><br>
                                 <label for="">Título</label>
@@ -70,8 +103,8 @@
                                 <label for="archivo">Subir foto:</label>
                                 <input type="file" id="archivo" name="archivo" accept=".jpg, .png, .jpeg"><br>
                                 <input type="submit" value="Enviar">
-                            </form>
-                            <div class="d-flex justify-content-end align-items-end my-5">
+                            </form> -->
+                            <div class="d-flex justify-content-end align-items-end mt-4">
                                 <img src="../Multimedia/zorro cola.png" alt="una cola" height="150px" width="auto">
                             </div>
                         </div>
