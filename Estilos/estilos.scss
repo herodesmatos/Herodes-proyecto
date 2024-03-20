@@ -45,11 +45,17 @@ h3{
     background-color: $color4;
 }
 
-footer{
-    background-color: $color1;
-    color: $color4;
-    padding: 10px;
-    height: 40px;
+.animate__animated.animate__bounceInUp{
+    --animate-duration : 3s;
+}
+
+.imagen{
+    filter: grayscale(100%);
+    transform: scale(1.14);
+
+}
+.imagen:hover{
+    filter: none;
 }
 
 .piePaginas{
