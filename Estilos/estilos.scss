@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$color1: hsl(0, 0%, 29%); //Gris Oscuro//
+$color2: hsl(0, 0%, 87%); //Gris Claro//
+$color3: hsl(39, 100%, 50%); //Naranja//
+$color4: hsl(0, 0%, 100%); //Naranja//
+
+.fondo{
+    background-color: $color1;
+}
+
+.navbar{
+    background-color: $color1;
+}
+
+.barra{
+    background-color: $color2;
+}
+
+.navbar-brand{
+    color: $color3;
+    font-family: "Madimi One", sans-serif;
+}
+
+.nav-link:hover{
+    color: $color3;
+}
+
+main{
+    min-height: 90vh;
+    background-color: $color2;
+}
+
+h1{
+    color: $color4;
+}
+
+h3{
+    color: $color3;
+}
+
+.uno{
+    border: 5px solid $color3;
+    border-radius: 15px;
+    background-color: $color4;
+}
+
+footer{
+    background-color: $color1;
+    color: $color4;
+    padding: 10px;
+    height: 40px;
+}
+
+.piePaginas{
+    background-color: $color2;
+    height: auto;
+
+}
+
+footer{
+    background-color: $color1;
+    color: $color4;
+    padding: 10px;
+    height: 40px;
+
+    p{
+        margin-bottom: 2px;
+        float: right;
+    }
+    .redes{
+        a{
+        text-decoration: none;
+        }
+        i{
+        color: $color4;
+        font-size: 20px;
+        letter-spacing: 20px;
+        }
+    }
+}
