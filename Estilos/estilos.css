@@ -40,7 +40,7 @@ h3 {
 }
 
 .uno:hover {
-  transform: scale(1.25)
+  transform: scale(1.25);
   background-image: radial-gradient(circle, hsl(39, 100%, 50%), hsl(0, 0%, 87%));
   animation-name: waves;
   animation-duration: 40s;
