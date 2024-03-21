@@ -39,6 +39,22 @@ h3 {
   background-color: hsl(0, 0%, 100%);
 }
 
+.uno:hover {
+  background-image: radial-gradient(circle, hsl(39, 100%, 50%), hsl(0, 0%, 87%));
+  animation-name: waves;
+  animation-duration: 40s;
+  animation-iteration-count: 1;
+}
+
+@keyframes waves {
+  50% {
+    background-image: radial-gradient(circle, hsl(0, 0%, 87%), hsl(39, 100%, 50%));
+  }
+}
+.cola:active {
+  transform: scale(1.25);
+}
+
 .animate__animated.animate__bounceInUp {
   --animate-duration: 3s;
 }

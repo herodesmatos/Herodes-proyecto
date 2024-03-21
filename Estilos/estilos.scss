@@ -3,7 +3,7 @@
 $color1: hsl(0, 0%, 29%); //Gris Oscuro//
 $color2: hsl(0, 0%, 87%); //Gris Claro//
 $color3: hsl(39, 100%, 50%); //Naranja//
-$color4: hsl(0, 0%, 100%); //Naranja//
+$color4: hsl(0, 0%, 100%); //blanco//
 
 .fondo{
     background-color: $color1;
@@ -43,6 +43,23 @@ h3{
     border: 5px solid $color3;
     border-radius: 15px;
     background-color: $color4;
+}
+
+.uno:hover{
+    background-image: radial-gradient(circle, $color3, $color2 );
+    animation-name: waves;
+    animation-duration: 40s;
+    animation-iteration-count: 1;
+}
+@keyframes waves{
+    50%{
+        background-image: radial-gradient(circle, $color2, $color3 );
+    }
+
+}
+
+.cola:active{
+    transform: scale(1.25);
 }
 
 .animate__animated.animate__bounceInUp{
