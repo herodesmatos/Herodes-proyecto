@@ -34,6 +34,7 @@ h3 {
 }
 
 .uno {
+  transform: scale(1.25)
   border: 5px solid hsl(39, 100%, 50%);
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
