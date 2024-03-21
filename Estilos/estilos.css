@@ -34,13 +34,13 @@ h3 {
 }
 
 .uno {
-  transform: scale(1.25)
   border: 5px solid hsl(39, 100%, 50%);
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
 }
 
 .uno:hover {
+  transform: scale(1.25)
   background-image: radial-gradient(circle, hsl(39, 100%, 50%), hsl(0, 0%, 87%));
   animation-name: waves;
   animation-duration: 40s;
