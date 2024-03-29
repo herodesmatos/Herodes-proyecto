@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-$color1: hsl(0, 0%, 29%); //Gris Oscuro//
-$color2: hsl(0, 0%, 87%); //Gris Claro//
-$color3: hsl(39, 100%, 50%); //Naranja//
-$color4: hsl(0, 0%, 100%); //blanco//
+$color1: #4a4a4a; //Gris Oscuro//
+$color2: #dedede; //Gris Claro//
+$color3: #ffa600; //Naranja//
+$color4: #ffffff; //blanco//
+$color5: #ffa60039; //Naranja Opaco//
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: $color5;
+    opacity: 0.4;
+}
 
 .fondo{
     background-color: $color1;
+}
+
+.two{
+    font-family: "Madimi One", sans-serif; 
+    font-size: 200px;
+    color: $color3;
 }
 
 .navbar{
@@ -20,6 +33,15 @@ $color4: hsl(0, 0%, 100%); //blanco//
 .navbar-brand{
     color: $color3;
     font-family: "Madimi One", sans-serif;
+}
+.five {
+    .nav-link{
+        color: white;
+    }
+}
+.nav-link{
+    color: $color1;
+    font-weight: bold;
 }
 
 .nav-link:hover{
